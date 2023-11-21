@@ -19,16 +19,16 @@ const FollowMouse = () => {
   }, [enabled])
 
   useEffect(() => {
-  document.body.classList.toggle('no-cursor', enabled)
-  return () => {
-    document.body.classList.remove('no-cursor')
-    
-  } 
+    document.body.classList.toggle('no-cursor', enabled)
+    return () => {
+      document.body.classList.remove('no-cursor')
+
+    }
   }, [enabled])
 
   return (
     <>
-    <div style={{
+      <div style={{
         position: 'absolute',
         backgroundColor: '#09f',
         borderRadius: '50%',
@@ -48,10 +48,9 @@ const FollowMouse = () => {
 function App() {
   return (
     <>
-    <main>
-   <FollowMouse />
-    </main>
-
+      <main>
+        <FollowMouse />
+      </main>
     </>
   )
 }

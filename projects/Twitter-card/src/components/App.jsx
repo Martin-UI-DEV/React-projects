@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { FollowCard } from './FollowCard';
 
 export function App() {
