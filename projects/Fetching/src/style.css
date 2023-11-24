@@ -6,3 +6,7 @@ main {
   margin: 0 auto;
   font-family: system-ui;
 }
+
+img {
+  width: 20px;
+}
