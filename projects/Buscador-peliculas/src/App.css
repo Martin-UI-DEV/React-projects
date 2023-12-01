@@ -1725,3 +1725,12 @@ body > footer {
     text-decoration: underline;
   }
 }
+
+input {
+  border: 1px solid transparent;
+}
+
+input:focus.danger {
+  box-shadow: 0 0 8px #bf0000ab;
+  border: 1px solid #bf0000 ;
+}
