@@ -47,7 +47,7 @@ function App () {
     debounce(search => {
       console.log('search', search)
       getMovies({ search })
-    }, 300)
+    }, 500)
     , [getMovies]
   )
 
